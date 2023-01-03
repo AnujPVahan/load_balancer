@@ -7,5 +7,5 @@ app.listen(port, () => console.log(`Listening to port ${port}.`));
 
 app.get('/', function (req, res) {
   console.log(`Request received on ${port}.`);
-  res.send(` Forwared the request on ${port}. ${Math.random()}`)
+  res.send(` Forwared the request on ${port}.`)
 });
